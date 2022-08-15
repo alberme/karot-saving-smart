@@ -35,9 +35,9 @@ const Login: FC = () => {
 
   const [request, response, promptAsync] = Google.useAuthRequest({
     expoClientId:
-      "1038262737574-iddu4aellun0nlvpd5auvie2o35p39pu.apps.googleusercontent.com",
+      "333095080730-rjn9raov9spbb45v4h2s7cdoffgg6dv9.apps.googleusercontent.com",
     webClientId:
-      "1038262737574-j0un3526ir5mkdo2cno1fl7o0v3jlnla.apps.googleusercontent.com",
+      "333095080730-n4m5e5bmvmoqrfqnf16k7ccf9egrd0r9.apps.googleusercontent.com",
   });
 
   useEffect(() => {
