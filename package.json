@@ -8,7 +8,6 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build-web": "gulp build-web",
     "postinstall": "patch-package"
   },
   "dependencies": {
