@@ -1,15 +1,14 @@
 {
   "name": "karot-saving-smart",
   "version": "1.0.0",
-  "homepage": "https://alberme.github.io/karot-saving-smart",
+  "homepage": "https://karot-saving-smart-test.netlify.app",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "deploy": "gh-pages -d web-build",
-    "predeploy": "expo build:web",
+    "build-web": "gulp build-web",
     "postinstall": "patch-package"
   },
   "dependencies": {
@@ -57,11 +56,8 @@
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
+    "gulp": "^4.0.2",
     "typescript": "~4.3.5"
-  },
-  "engines": {
-    "node": "16.15.0",
-    "npm": "8.5.5"
   },
   "private": true
 }
